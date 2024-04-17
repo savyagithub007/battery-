@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#battery-wrapper{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+}
+
+#point{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+#increase{
+    width: 40px;
+    height: 100%;
+    background-color: green;
+}
+
+#battery-wrapper:hover #increase{
+    width: 100%;
+    transition: 3s;
+}

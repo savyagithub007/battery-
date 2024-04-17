@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper{
+    /* width: 50%;
+    height: 80vh; */
+    /* background-color: red; */
+}
+
+#fan{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle{
+    width: 160px;
+    height: 160px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+#wing1{
+    width: 200px;
+    height: 30px;
+    background-color: purple;
+}
+
+#wing2{
+    width: 200px;
+    height: 30px;
+    background-color: purple;
+}
+
+#fan:hover{
+    transform: rotate(36000deg);
+    transition: 10s;
+ 
+}
+
